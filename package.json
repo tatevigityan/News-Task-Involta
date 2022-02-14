@@ -1,0 +1,15 @@
+{
+  "name": "news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 ./dist/",
+    "build": "cross-env NODE_ENV=production npm run build"
+  },
+  "author": "tatev igityan",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
